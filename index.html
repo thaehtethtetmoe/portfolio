@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="sidenav">
+    <a href="#home" class="active"><i class="fas fa-home"></i><span>HOME</span></a>
+    <a href="#about" ><i class="fas fa-user"></i><span>ABOUT</span></a>
+    <a href="#projects"><i class="fas fa-code"></i><span>PROJECTS</span></a>
+    <a href="#contact"><i class="fas fa-envelope"></i><span>CONTACT</span></a>
+  </div>
+  
+  <div class="content">
+    <section id="home" class="active">
+      <h1>I am Thae Htet Htet Moe!</h1>
+      <p>Aspiring Full Stack Developer</p>
+      <img id="profilepic" src="./images/profilepic.jpeg"> 
+    </section>
+    <br><hr>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>I am an enthusiastic and detail-oriented student with a strong interest in software development and web technologies. Currently pursuing my studies in Diploma in Information Technology at Singapore Technology, I have hands-on experience with HTML, CSS, JavaScript, and backend development using frameworks like Express and tools such as Prisma ORM. I enjoy solving problems, building user-friendly applications, and learning new technologies to improve my skills. My goal is to contribute meaningfully to a dynamic team, gain industry experience, and further develop my technical expertise through this opportunity.</p>
+      
+      <h2>Skills</h2>
+      <p>Technical Skills - JavaScript, Frontend and Backend web development, Java, IoT applications(Raspberry Pi, Arduinno), Figma and Prototyping, Agile methodology</p>
+      <p>Soft Skills - Time management, Working with team, Detail-orientated focus, Active listening  </p>
+
+      <h2>Educational Background</h2>
+      <p>- Passed Myanmar grade 10 university entrance exam with 4 distinctions (2020) </p>
+      <p>- Graduated Diploma in English at Standford City Business Institute (2023)</p>
+      <p>- Offered by all Polytechnics (2024)</p>
+    </section>
+    <hr>
+    <section id="projects" class="container my-5">
+      <h1 class="mb-4">Projects</h1>
+      <div class="row g-4">
+        <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src = "./images/project1.png" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">SP 70th Anniversary Interactive Website</h5>
+            <p3 class="card-text">I have learnt JavaScript, HTML, Bootstrap and CSS to implement an interactive website about our school 70th anniversary.</p>
+            <a href="https://thaehtethtetmoe.github.io/ca2interactivewebsite/" class="btn btn-dark">View Project</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./images/project2.png" alt="Project 2">
+            <div class="card-body">
+            <h5 class="card-title">Counter from a YouTuber </h5>
+            <p3 class="card-text">I was practicing JavaScript and I found a beginner friendly project Js project on YouTube, therefore, I made this on one holiday. </p3>
+            <a href="https://github.com/thaehtethtetmoe/jscounter" class="btn btn-dark">View Project</a>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./images/project3.png" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Database Management System Assignment</h5>
+              <p3 class="card-text">I have implemented review, comment, cart and checkout features using stored procedures, functions and Prisma ORM, and learnt managing database and developing CRUDs using postgres SQL.</p3>
+              <a href="https://github.com/soc-DBS/dbs-assignment-thaehtethtetmoe" class="btn btn-dark">View Project</a> 
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./images/project4.png" alt="Project 4">
+            <div class="card-body">
+              <h5 class="card-title">Fitness Challenge Web App</h5>
+              <p3 class="card-text">I built full-stack application with login, JWT authentication, review features and MySQL database integration.</p3>
+              <a href="https://github.com/ST0503-BED/bed-ca2-thaehtethtetmoe" class="btn btn-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./images/project5.png" alt="Project 5">
+            <div class="card-body">
+              <h5 class="card-title">SP Mobile App Redesign</h5>
+              <p3 class="card-text">My friends and I designed an interactive prototype that focused on improving user experience and accessibility for new students.</p3>
+              <a href="https://www.figma.com/file/TaITsNGKG19r4syPGoYnDG/deui-wireframe" class="btn btn-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./images/project7.png" alt="Project 6">
+            <div class="card-body">
+              <h5 class="card-title">Java GUI Application</h5>
+              <p3 class="card-text">My teammate and I built library system management application using Java GUI.</p3> 
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="row g-4">
+       <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./images/project6img.png" alt="Project 7">
+            <div class="card-body">
+              <h5 class="card-title">Intelligent Bin</h5>
+              <p3 class="card-text">My teammate and I built intelligent bin using Arduino IDE, Arduino Uno, LEDs, Wi-Fi module, ultrasonic sensor, dip switches, ThingSpeak and telegram interface.</p3> 
+              <a href="https://youtu.be/c4pQXbWhfLo" class="btn btn-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+          <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./images/project8.png" alt="Project 8">
+            <div class="card-body">
+              <h5 class="card-title">Smart Home System</h5>
+              <p3 class="card-text"> As a part of my elective module, my teammate and I developed a Smart Home System using Python and Raspberry Pi, focusing on automated and remote control of light and fan systems through IoT. </p3> 
+              <a href="https://youtube.com/shorts/R8gyirIMRJo" class="btn btn-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p> <i class="fas fa-phone-alt"></i><span> 86152823</span>
+      </p>
+      <p>
+        <i class="fas fa-envelope"></i><a href="mailto:thaehh05.24@ichat.sp.edu.sg"> thaehh05.24@ichat.sp.edu.sg</a>
+      </p>
+      <p><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/thaehtethtet-moe" target="_blank"> linkedin.com/in/thaehtethtet-moe</a>
+      </p>
+    </section>
+  </div>
+  <script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".sidenav a"); 
+    window.addEventListener("scroll", ()=>{
+      let current="";
+      sections.forEach(section =>{
+        const sectionTop = section.offsetTop - 80;
+        if (scrollY >= sectionTop){
+          current = section.getAttribute("id");
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove("active"); 
+        if(link.getAttribute("href")=== "#"+ current){
+          link.classList.add("active"); 
+        }
+      })
+    })
+  </script>
+</body>
+</html>

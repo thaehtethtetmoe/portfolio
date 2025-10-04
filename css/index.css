@@ -1,0 +1,108 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    height: 100%;
+    width: 100%;
+}
+
+.sidenav{
+    height: 100vh;
+    width: 200px; 
+    position: fixed; 
+    background-color: #111;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidenav a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0 50px;
+      width: 100%;
+      color: white;
+      text-decoration: none;
+      transition: background 0.3s;
+}
+
+.sidenav a i {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+.sidenav a:hover {
+      background-color: #444;
+}
+
+ .sidenav a.active {
+      background-color: #aaa;
+      color: black;
+}
+
+.content {
+      margin-left: 200px; 
+      min-height: 100vh;
+}
+/*
+.content section{
+    min-height: 100vh; 
+    padding: 10px;
+}
+*/
+
+.content h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#profilepic {
+    width: 80%; 
+    height: 25%; 
+    display: block; 
+    justify-self: center;
+}
+
+#about p {
+   padding: 0px 15px;
+   text-align: left;
+   font-size: 1.3rem;
+}
+
+#about h2{
+    padding: 0px 15px;
+    font-size: 1.7rem;
+}
+
+#contact a{
+    color:#333;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    color:#0077b5;
+}
+
+#contact i{
+    color: #0077b5;
+}
+
+#contact p{
+    font-size: 1.2rem;
+    color:#333; 
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
